@@ -1,3 +1,4 @@
+//////////////////// Let and Const
 // ES5
 /*var myName = 'Grace';
 console.log(myName);
@@ -13,8 +14,50 @@ myName = 'Eric';
 console.log(myName);*/
 
 //ES6 - Const, will receive error because can't rename value
-const myName = 'Grace';
+/*const myName = 'Grace';
 console.log(myName);
 
 myName = 'Eric';
-console.log(myName);
+console.log(myName); */
+
+
+//////////////////// Arrow Functions
+//ES5
+/*function printMyName(name) {
+      console.log(name);
+}
+printMyName('Grace');*/
+
+//ES6
+
+/*const printMyName = (name) => {
+      console.log(name);
+}
+printMyName('Grace');*/
+
+// One Argument
+/*const printMyName = name => {
+      console.log(name);
+}
+printMyName('Grace');*/
+
+//No Arguments
+/*const printMyName = () => {
+      console.log('Grace');
+}
+printMyName();*/
+
+//Multiple Arguments
+/*const printMyName = (name, age) => {
+      console.log('My name is ' + name + ', and I am ' + age + ' years old.');
+}
+printMyName('Grace', 34);*/
+
+//Different function body
+/*const multiply = (number) => {
+      return number * 2;
+}
+console.log(multiply(2));*/
+//If you only return one thing
+const multiply = number => number * 2;
+console.log(multiply(2));
