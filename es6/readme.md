@@ -51,3 +51,16 @@ import { baseData } from './utility.js'
 import { clean } from './utility.js'
 import { smth as Smth } from './utility.js'
 import * as bundled from './utility.js'
+
+
+
+###Understanding Classes
+class Person {
+      name = 'Grace'
+      call = () => { ... }
+}
+const myPerson = new Person()
+myPerson.call()
+console.log(myPerson.name)
+
+class Person extends Master -> Inheritance
