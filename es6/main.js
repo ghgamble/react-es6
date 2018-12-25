@@ -59,5 +59,9 @@ printMyName('Grace', 34);*/
 }
 console.log(multiply(2));*/
 //If you only return one thing
-const multiply = number => number * 2;
-console.log(multiply(2));
+/*const multiply = number => number * 2;
+console.log(multiply(2));*/
+
+
+
+//////////////////// Exports and Imports

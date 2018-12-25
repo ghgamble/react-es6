@@ -21,3 +21,33 @@ const myFnc = () => {
 }
 No more issues with THIS keyword
 THIS will always keep it's context, and not change/throw errors
+
+
+
+##Exports and Imports
+
+Inside of a JS file, we can import content from another file, so that the files know their dependencies
+
+person.js
+const person = {
+      name: 'Grace'
+}
+
+export default person
+
+utility.js
+export const clean = () => { ... }
+
+app.js
+Default export
+Imports default and ONLY export of the file Name in the receiving file is up to you
+import person from './person.js'
+import prs from './person.js'
+
+Named export
+Import from two different constants, curly braces to only certain things from a file
+Have to use same name as in file you're importing it from
+import { baseData } from './utility.js'
+import { clean } from './utility.js'
+import { smth as Smth } from './utility.js'
+import * as bundled from './utility.js'
