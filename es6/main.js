@@ -70,7 +70,7 @@ console.log(multiply(2));*/
 
 
 //////////////////// Understanding Classes
-class Human {
+/*class Human {
       constructor() {
             this.gender = 'male';
       }
@@ -89,6 +89,28 @@ class Person extends Human {
             console.log(this.name);
       }
 }
+const person = new Person();
+person.printMyName();
+person.printGender();*/
+
+
+
+//////////////////// Classes, Properties and Methods
+class Human {
+      gender = 'male';
+      printGender = () => {
+            console.log(this.gender);
+      }
+}
+
+class Person extends Human {
+      name = 'Grace';
+      gender = 'female';
+      printMyName = () => {
+            console.log(this.name);
+      }
+}
+
 const person = new Person();
 person.printMyName();
 person.printGender();

@@ -64,3 +64,15 @@ myPerson.call()
 console.log(myPerson.name)
 
 class Person extends Master -> Inheritance
+
+
+
+###Classes, Properties & Methods
+#ES6
+constructor() {
+      this.myProperty = 'value'
+}
+myMethod () { ... }
+#ES7
+myProperty = 'value'
+myMethod = () => { ... }
