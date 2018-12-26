@@ -113,3 +113,4 @@ console.log(age) // undefined
 
 
 ###Reference and Primitive Types Refresher
+###Refreshing Array Functions
