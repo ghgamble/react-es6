@@ -109,3 +109,7 @@ console.log(b) // Grace
 {name} = {name: 'Grace', age: 34}
 console.log(name) // Grace
 console.log(age) // undefined
+
+
+
+###Reference and Primitive Types Refresher

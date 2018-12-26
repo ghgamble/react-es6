@@ -141,6 +141,25 @@ console.log(filter(1, 2, 3));*/
 
 
 //////////////////// Destructuring
-const numbers = [1, 2, 3];
+/*const numbers = [1, 2, 3];
 [num1, , num3] = numbers;
-console.log(num1, num3);
+console.log(num1, num3);*/
+
+
+
+//////////////////// Reference and Primitive Types Refresher
+// Primitive Type
+const number = 1;
+// Copies number
+const num2 = number;
+console.log(num2);
+// Object and arrays are refence Types
+const person = {
+      name: 'Grace'
+}
+const secondPerson = person;
+console.log(secondPerson);
+// Person is stored in memory, pointer will be copied
+// Copied pointer
+// Leads to confusion, to avoid accidentally copying, copy object and not just pointer
+// If you use a spreader, it will copy old object and add to new object
