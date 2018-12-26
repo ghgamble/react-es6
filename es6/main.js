@@ -119,7 +119,7 @@ person.printGender();*/
 
 //////////////////// Spread & Rest Operators
 //Spread
-const numbers = [1, 2, 3];
+/*const numbers = [1, 2, 3];
 const newNumbers = [...numbers, 4];
 console.log(newNumbers);
 
@@ -136,4 +136,11 @@ console.log(newPerson);
 const filter = (...args) => {
       return args.filter(el => el === 1);
 }
-console.log(filter(1, 2, 3));
+console.log(filter(1, 2, 3));*/
+
+
+
+//////////////////// Destructuring
+const numbers = [1, 2, 3];
+[num1, , num3] = numbers;
+console.log(num1, num3);

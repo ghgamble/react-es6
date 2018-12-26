@@ -94,3 +94,18 @@ Used to merge list of function arguments into an array
 function sortArgs(...args) {
       return args.sort()
 }
+
+
+
+###Destructuring
+Easily extract array elements or object properties and store them in variables
+
+#Array Destructuring
+[a, b] = ['Hello', 'Grace']
+console.log(a) // Hello
+console.log(b) // Grace
+
+#Object Destructuring
+{name} = {name: 'Grace', age: 34}
+console.log(name) // Grace
+console.log(age) // undefined
