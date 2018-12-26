@@ -96,7 +96,7 @@ person.printGender();*/
 
 
 //////////////////// Classes, Properties and Methods
-class Human {
+/*class Human {
       gender = 'male';
       printGender = () => {
             console.log(this.gender);
@@ -113,4 +113,27 @@ class Person extends Human {
 
 const person = new Person();
 person.printMyName();
-person.printGender();
+person.printGender();*/
+
+
+
+//////////////////// Spread & Rest Operators
+//Spread
+const numbers = [1, 2, 3];
+const newNumbers = [...numbers, 4];
+console.log(newNumbers);
+
+const person = {
+      name: 'Grace'
+};
+const newPerson = {
+      ...person,
+      age: 34
+};
+console.log(newPerson);
+
+//Rest
+const filter = (...args) => {
+      return args.filter(el => el === 1);
+}
+console.log(filter(1, 2, 3));

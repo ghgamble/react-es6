@@ -76,3 +76,21 @@ myMethod () { ... }
 #ES7
 myProperty = 'value'
 myMethod = () => { ... }
+
+
+
+###Spread & Rest Operators
+
+Operator is ...
+
+#Spread
+Used to split up array elements OR object Properties
+const newArray = [...oldArray, 1, 2]
+const newObject = {...oldObject, newProp: 5}
+Add all elements from old array and add a 1 and 2 element, pulls out all elements from old array
+
+#Rest
+Used to merge list of function arguments into an array
+function sortArgs(...args) {
+      return args.sort()
+}
